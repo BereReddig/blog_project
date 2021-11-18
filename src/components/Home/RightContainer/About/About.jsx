@@ -1,7 +1,4 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fabTwitter } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './about.css';
 import team1 from '../../../../assets/images/team1.jpg';
@@ -10,7 +7,7 @@ import team3 from '../../../../assets/images/team3.jpg';
 
 const About = () => {
     return (
-        <>
+        <div className='about-container'>
             <section className='about'>
                 <h2>About Proof</h2>
                 <p>
@@ -32,29 +29,29 @@ const About = () => {
                     <div className='column'>
                         <img src={team1} alt='picture of Rob Thomas'/>
                         <h5>Rob Thomas</h5>
-                        <FontAwesomeIcon icon={['fab', 'twitter']}  />
-                        <FontAwesomeIcon icon={['fab', 'twitter']}  />
-                        <FontAwesomeIcon icon={['fab', 'twitter']}  />
+                        <span className="fab fa-twitter"></span>
+                        <span className="fab fa-instagram"></span>
+                        <span className="fab fa-facebook-square"></span>
                     </div>
 
                     <div className='column'>
                         <img src={team2} alt='picture of Jen Jillians'/>
                         <h5>Jen Jillians</h5>
-                        <span className='icon'></span>
-                        <span className='icon'></span>
-                        <span className='icon'></span>
+                        <span className="fab fa-twitter"></span>
+                        <span className="fab fa-instagram"></span>
+                        <span className="fab fa-facebook-square"></span>
                     </div>
 
                     <div className='column'>
                         <img src={team3} alt='picture of Tommy Tikes'/>
                         <h5>Tommy Tikes</h5>
-                        <span className='icon'></span>
-                        <span className='icon'></span>
-                        <span className='icon'></span>
+                        <span className="fab fa-twitter"></span>
+                        <span className="fab fa-instagram"></span>
+                        <span className="fab fa-facebook-square"></span>
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 

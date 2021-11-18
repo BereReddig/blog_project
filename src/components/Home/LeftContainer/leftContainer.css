@@ -1,5 +1,6 @@
 div.left-container {
     flex-basis: 50%;
+    overflow: hidden;
     background-image: url('../../../assets/images/waterfall.jpg');
     background-size: cover;
     background-position: center;

@@ -1,0 +1,57 @@
+div.about-container {
+    color: #333333;
+}
+
+section.about {
+    border-bottom: 1px solid #3333;
+    padding: 40px;
+}
+
+section.about p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+section.about h2 {
+    margin: 0px 0px 18px;
+    font-size: 43px;
+    line-height: 47px;
+    font-weight: 500;
+}
+
+section.the-team{
+    padding: 40px;
+}
+
+section.the-team h2 {
+    margin: 0px 0px 18px;
+    font-size: 43px;
+    line-height: 47px;
+    font-weight: 500;
+}
+
+section.the-team .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.the-team .row .column {
+    flex-basis: 30%;
+}
+
+section.the-team .column img {
+    width: 100%;
+}
+
+section.the-team .row .column span {
+    margin-right: 5%;
+    color: #1816165c;
+}
+
+section.the-team .row .column > * {
+    margin-bottom: 2%;
+}
+

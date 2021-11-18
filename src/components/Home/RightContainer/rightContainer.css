@@ -1,3 +1,4 @@
 div.right-container {
     flex-basis: 50%;
+    overflow: auto;
 }
