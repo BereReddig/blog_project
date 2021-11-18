@@ -51,6 +51,10 @@ section.the-team .row .column span {
     color: #1816165c;
 }
 
+section.the-team .row .column span:hover {
+    color: #333333;
+}
+
 section.the-team .row .column > * {
     margin-bottom: 2%;
 }
